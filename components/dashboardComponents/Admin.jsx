@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/sheet"
 import DashboardSidebar from "./DashboardSidebar";
 import { GiRobotAntennas } from "react-icons/gi";
+import MapPath from "../map/MapPath";
 
 
 const Admin = () => {
@@ -158,13 +159,7 @@ const Admin = () => {
 
             </div>
             <div className="bg-cyan-400 " >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29183.554488498266!2d90.31956364999999!3d23.89159335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sbd!4v1706485148845!5m2!1sen!2sbd"
-                className="w-full h-[240px]"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade">
-              </iframe>
+              <MapPath />
             </div>
           </div>
 
