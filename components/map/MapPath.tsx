@@ -60,7 +60,7 @@ export default function MapPath() {
     <div style={{ height: "100vh", width: "100%" }}>
       <APIProvider apiKey={""}>
         <Map
-          center={positions[0]}
+          center={{ lat: 23.876985, lng: 90.320455 }}
           zoom={22}
           mapId={""}
           mapTypeId="satellite"
