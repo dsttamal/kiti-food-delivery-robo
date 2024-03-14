@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/sheet"
 import DashboardSidebar from "./DashboardSidebar";
 import { GiRobotAntennas } from "react-icons/gi";
-import MapPath from "../map/MapPath";
+import MapPath from "@/components/map/MapPath";
 import io from "socket.io-client";
 import { useEffect } from "react";
 import axios from "axios";
